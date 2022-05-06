@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .one{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div class="one">Dummy</div>
+
+    <button onclick="changeName()">Change Name</button>
+    <script>
+        function changeName(){
+            let d = document.getElementsByTagName("div");
+            d[0].innerHTML = "<h1>Sumedh Sanjay Zodape</h1>"
+        }
+    </script> -->
+
+    <!-- <div class="one">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro ducimus error totam, reprehenderit, quidem placeat unde autem eos iusto recusandae, corrupti quis eius obcaecati! Facilis repudiandae consequuntur nesciunt sunt aliquid.
+    </div>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+
+
+        changeColor=()=>{
+            let d = document.getElementsByTagName("div");
+        d[0].style.backgroundColor = "green"
+        }
+
+
+    </script> -->
+
+
+
+    <!-- <div class="one"></div>
+
+
+    <button onclick="addContent()">Add content</button>
+
+    <script>
+        addContent=()=>{
+            let di = document.getElementsByTagName("div");
+            di[0].innerHTML = di[0].innerHTML + "<h1>Hello</h1>"
+        }
+    </script> -->
+
+
+    <!-- <script>
+        let names = "Sumedh Sanjay Zodape"
+        console.log(`My full name is : ${names}`)
+    </script>    -->
+
+
+    <!-- Attribute -->
+
+    
+
+
+    <input type="password" name="" placeholder="Enter Your Password" id="pass" style="padding: 10px;">
+
+    <button onmousedown="showPassword()" onmouseout="hidePass()">Show Password</button>
+
+    <script>
+        showPassword=()=>{
+            let pass = document.getElementById("pass");
+            pass.type="text"
+        }
+        hidePass = () =>{
+            let hide = document.getElementById("pass");
+            hide.type = "password"
+            
+        }
+    </script>
+
+</body>
+</html>
